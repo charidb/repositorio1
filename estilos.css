@@ -1,0 +1,33 @@
+body{
+	font-family: arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 20px;
+}
+p{
+	text-align: center;
+	color: #333;
+}
+label{
+	display: block;
+	margin: 10px 0 5px;
+	font-weight: bold;
+}
+input, textarea, select{
+	width: 500px;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+input[type="submit"]:hover{
+	background-color: #45a049;
+	}
+.container{
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 12px;
+	box-shadow: 0 0 10px rgb(0,0,0.2);
+ }
